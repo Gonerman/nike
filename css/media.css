@@ -1,0 +1,52 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+    .main {
+        flex-direction: column;
+        align-items: center;
+    }
+    .product {
+        margin-bottom: 20px;
+    }
+    .card {
+        margin-bottom: 15px;
+    }
+}
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+    nav .container {
+        justify-content: center;
+    }
+    footer .container {
+        flex-direction: column;
+        padding: 37px 0;
+    }
+    .form {
+        margin-bottom: 20px;
+    }
+    footer .menu {
+        display: flex;
+        justify-content: center;
+        columns: auto;
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+    .logo {
+        margin-bottom: 15px;
+    }
+    .menu {
+        justify-content: center;
+    }
+    .link {
+        padding: 20px 10px;
+    }
+    .card {
+        max-width: none;
+    }
+}
